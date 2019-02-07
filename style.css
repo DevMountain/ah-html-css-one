@@ -1,0 +1,50 @@
+
+.title {
+	margin: 0;
+}
+.hero {
+	height: 500px;
+	background: url('./img/hawaii.jpg')
+		center no-repeat;
+	background-size: cover;
+}
+.hero h1 {
+	text-align: center;
+	font-size: 4em;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+.about,
+.contact {
+	max-width: 800px;
+	margin: 15px auto;
+}
+.projects-container {
+	background: #111;
+	color: #fff;
+	padding: 50px 0;
+	text-align: center;
+}
+.projects {
+	margin: 0 auto;
+}
+.project {
+	height: 300px;
+	width: 300px;
+	margin: 0 15px;
+	background: red;
+	display: inline-block;
+}
+.project.one {
+	background: green;
+}
+.project.two {
+	background: blue;
+}
+.project.three {
+	background: aquamarine;
+}
+.contact {
+	margin: 50px auto;
+	text-align: center;
+}
